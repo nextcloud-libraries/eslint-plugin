@@ -27,7 +27,7 @@
     "eslint": ">=7.0.0"
   },
   "dependencies": {
-    "fast-xml-parser": "^4.5.3",
+    "fast-xml-parser": "^5.2.2",
     "requireindex": "^1.2.0",
     "semver": "^7.7.1"
   },
