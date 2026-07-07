@@ -1,8 +1,11 @@
 # @nextcloud/eslint-plugin
 
+> [!CAUTION]
+> This package is now deprecated archived as it was merged into [`@nextcloud/eslint-config`](https://github.com/nextcloud-libraries/eslint-config) as of version 9.
+
 Nextcloud lint plugin for ESLint. This plugin provides a set of rules in order to check compliance of your app to the Nextcloud JavaScript API.
 
-It is recommended to configure your app to use [`@nextcloud/eslint-config`](https://github.com/nextcloud/eslint-config) in advance. Then, this plugin is integrated automatically, but you profit also from the common Nextcloud coding standard.
+It is recommended to configure your app to use [`@nextcloud/eslint-config`](https://github.com/nextcloud-libraries/eslint-config) in advance. Then, this plugin is integrated automatically, but you profit also from the common Nextcloud coding standard.
 
 ## Installation
 
@@ -20,7 +23,7 @@ $ npm install @nextcloud/eslint-plugin --save-dev
 
 ## Usage
 
-Add `plugin:nextcloud/recommended` to the `extends` section of your `.eslintrc` configuration file in order to use all recommended options (load estlint-plugin-nextcloud, add Nextcloud environment and add recommended rules):
+Add `plugin:nextcloud/recommended` to the `extends` section of your `.eslintrc` configuration file in order to use all recommended options (load eslint-plugin-nextcloud, add Nextcloud environment and add recommended rules):
 
 ```json
 {
